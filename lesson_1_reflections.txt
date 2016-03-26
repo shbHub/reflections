@@ -1,0 +1,31 @@
+Version control makes it easier to spot mistakes by automatically 
+comparing the files for you, so you don't have to go through line 
+by line and figure out what you did wrong.
+
+Having easy access to the entire history of a file would make you 
+a more efficient programmer because it would make fixing mistakes 
+by comparing previous versions much easier.
+
+Manual commits allows you the flexibility to save a version with 
+a complete logical change altogether. In comparison to automatic 
+commits which may cause partial changes to be saved which might 
+not make logical sense. Although, if you are forgetful or don't 
+commit at the right times, the commits may become meaningless.
+
+Some version control systems do not allow commits where the 
+changes are across multiple files because the files are not 
+related. However, when coding it often happens that one change 
+will affect code in other files such that one logical change will 
+be over multiple files and will need to be commited together.
+
+The commands git log allows you to view all the commits for that 
+file and git diff allows you to compare different versions. The 
+different versions are identified by their commit id, which can
+be found from the git log command.
+
+Version control will make you more confident to make changes that
+might break something because you could revert the changes that 
+caused the bug at a later date.
+
+I want to use version control ao that when I make my app I can be 
+more efficient and take more coding risks.
