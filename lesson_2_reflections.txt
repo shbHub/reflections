@@ -1,0 +1,9 @@
+When you initialise a repository the hidden file .git is 
+created. This file looks after all the commit information
+relating to the repository.
+
+The staging area allows you to only add the files that make
+up a logical change even though you may have made changes to
+more than one file. It allows you to make full use of the 
+version control system by commiting in logical chunks.
+
