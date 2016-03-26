@@ -22,3 +22,16 @@ into the master at a later date.
 Diagrams can help visualise the branches in your repository
 and keep track of which commits can be reached on each branch.
 
+By merging two branches we have all the changes from both 
+branches now in the master branch. The commits on the log 
+become interleaved by the date and time they were committed.
+This makes the diffing between versions difficult as two 
+adjacent commits in the log could be from different branches, 
+so to see the diffs between a commit and its parent, use the
+show command.
+
+Automatic merging is a quick and easy way to recombine git 
+branches. When there is a merge conflict, the dispute has to
+be settled manually, regardless of how simple the conflict.
+This is much more reliable way of doing it as if git tried to
+merge some things you could end up with non sensicle code.
