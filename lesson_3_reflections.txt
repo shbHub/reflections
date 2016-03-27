@@ -17,3 +17,14 @@ can add your own changes to.
 By having the last known state of the remote stored locally, you
 can continue to work off line and when you reconnect again you 
 will be able to successfully merge your changes in.
+
+Collaborating without GitHub would be much more difficult as the
+different copies would have to be manually merged together 
+regularly otherwise run the risk of the files being so far out
+of sync that it is impossible to merge again. This could result
+in duplication of effort and would be very time consuming.
+
+Some changes are small and so don't require their own branch.
+However, a large change such as a new feature or bug fix should
+have their own branch as these should only be put into the master
+once they are production quality.
