@@ -1,3 +1,19 @@
 I would want to use a remote repository rather than a local one
 when collaborating with multiple people or sharing with the 
 public.
+
+As GitHub is public, you would not want unfinished features to
+go live which would happen if GitHub automatically cloned your
+local repository.
+
+A branch is used to add a new feature or bug fix in your local
+repository so that the master branch maintains production 
+quality code. Cloning is used to copy a repository from GitHub
+to your local machine or to make another copy of a repository
+on youur local machine. Forks are used to copy other peoples
+repositories on GitHub into a repository of your own that you
+can add your own changes to.
+
+By having the last known state of the remote stored locally, you
+can continue to work off line and when you reconnect again you 
+will be able to successfully merge your changes in.
